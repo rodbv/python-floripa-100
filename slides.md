@@ -266,11 +266,13 @@ Na Talita: a comunidade que um dia quis trazer a Python Brasil hoje ajuda a orga
 
 # Quem vai passar o café **da edição 200?**
 
-O futuro de eventos de comunidade
+O futuro de eventos de comunidade · com a palavra, **Glória Barboza**
 
 <div class="lema"><span class="accent">Pessoas</span> &gt; <span class="accent">Tecnologias</span></div>
 
 <!--
-Então a pergunta para o painel é:
-quem vai passar o café da edição 200?
+Por 100 edições, alguém passou o café.
+Quem vai passar o café da edição 200?
+Eu não tenho essa resposta.
+Quem vai puxar essa conversa é a Glória Barboza, com o painel.
 -->

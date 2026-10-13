@@ -32,6 +32,22 @@ Hoje, na Python Brasil
 
 <!--
 Hoje a Python Floripa chega à edição número 100.
+-->
+
+---
+
+<!-- _class: foto -->
+
+![bg](img/cafe-wallacy.jpg)
+
+<div class="legenda">
+<div class="label">Toda edição</div>
+<p>Alguém passa o café</p>
+</div>
+
+<!--
+Esse é o Wallacy, passando o café na garrafa que a comunidade comprou.
+Em toda edição, alguém passa o café.
 E essa história começa com um café.
 -->
 
@@ -136,8 +152,24 @@ A gente até comemorou 5 anos assim.
 
 <!--
 Quando deu, a gente voltou.
-Hoje, com o Jardel, são 50 a 100 pessoas por mês.
+Hoje são 50 a 100 pessoas por mês.
 A tela atrás diz o que a gente promete no começo de cada encontro: pessoas acima de tecnologias.
+-->
+
+---
+
+<!-- _class: foto -->
+
+![bg](img/calixto-mural.jpg)
+
+<div class="legenda">
+<div class="label">Passando o bastão</div>
+<p>O Calixto assina o mural antes de se mudar para Portugal</p>
+</div>
+
+<!--
+No último encontro antes de se mudar para Portugal, o Calixto assinou o mural da comunidade.
+Ele passou o bastão, e o Jardel seguiu passando o café.
 -->
 
 ---
@@ -185,13 +217,13 @@ Para quem chegar.
 
 <div class="dupla">
 <img src="img/coffee-open-source.png" alt="Arte: Coffee Break open source. Traga seu quitute favorito e compartilhe!" />
-<img src="img/2025-88-coffee-mesa.jpg" alt="Mesa de um coffee break comunitário" />
+<img src="img/cafe-garrafao-mesa.jpg" alt="A garrafa de café da comunidade ao lado da mesa do coffee break open source" />
 </div>
 
 <!--
 E quando não tem patrocínio para o café?
 Tem coffee break open source: cada pessoa traz um pouco.
-Muitos commits pequenos, e a mesa fica cheia.
+Muitos commits pequenos, e a mesa fica cheia. Ao lado, a garrafa que a comunidade comprou.
 -->
 
 ---

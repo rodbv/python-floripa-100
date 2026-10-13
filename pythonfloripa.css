@@ -1,0 +1,416 @@
+/*
+ * @theme pythonfloripa
+ * @size 16:9 1280px 720px
+ *
+ * Identidade visual da Python Floripa (a mesma do deck da 99ª): fundo navy,
+ * destaque laranja, Poppins. Cada layout é uma classe, escolhida com
+ * <!-- _class: nome --> no topo do slide.
+ *
+ *   foto    foto de fundo em tela cheia, com legenda em .legenda
+ *   numero  um número grande (h1) e uma linha de apoio
+ *   frase   uma frase grande, centralizada
+ *   nome    homenagem: nome (h1), papel e anos
+ *   fim     fechamento com o convite
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Atkinson+Hyperlegible+Mono:wght@400;700&display=swap");
+
+:root {
+  --navy: #0b1a52;
+  --navy-2: #13266e;
+  --laranja: #ffb80d;
+  --branco: #ffffff;
+  --muted: #d6deff;
+}
+
+section {
+  width: 1280px;
+  height: 720px;
+  padding: 64px 88px;
+  background: var(--navy);
+  color: var(--branco);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 1.35;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 76px;
+  font-weight: 800;
+  line-height: 1.08;
+  margin: 0 0 24px;
+}
+
+h1 strong,
+h2 strong,
+p strong,
+li strong,
+.accent {
+  color: var(--laranja);
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 0 0 16px;
+}
+
+p {
+  margin: 0 0 12px;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.label {
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--laranja);
+  margin-bottom: 12px;
+}
+
+/* barra laranja abaixo do título, como no deck da 99ª */
+h1::after {
+  content: "";
+  display: block;
+  width: 96px;
+  height: 10px;
+  margin-top: 28px;
+  border-radius: 5px;
+  background: var(--laranja);
+}
+
+section.foto h1::after,
+section.numero h1::after,
+section.nome h1::after,
+section.frase h1::after {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  position: relative;
+  padding-left: 1.4em;
+  margin: 14px 0;
+}
+
+li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 3px;
+  background: var(--laranja);
+}
+
+img {
+  background: transparent;
+}
+
+/* paginação discreta; o rodapé não é usado */
+section::after {
+  font-size: 18px;
+  color: var(--muted);
+  right: 32px;
+  bottom: 20px;
+}
+
+/* foto: imagem de fundo com ![bg](...) e legenda num cartão navy */
+section.foto {
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 48px;
+}
+
+section.foto .legenda {
+  background: rgba(11, 26, 82, 0.9);
+  border-left: 10px solid var(--laranja);
+  border-radius: 8px;
+  padding: 18px 28px;
+  max-width: 80%;
+}
+
+section.foto .legenda p {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+section.foto .legenda .label {
+  margin-bottom: 4px;
+}
+
+/* numero: um número que ocupa a tela */
+section.numero {
+  align-items: center;
+  text-align: center;
+}
+
+section.numero h1 {
+  font-size: 240px;
+  line-height: 1;
+  color: var(--laranja);
+  margin: 0;
+}
+
+section.numero p {
+  font-size: 44px;
+  font-weight: 800;
+}
+
+/* frase: uma ideia por slide */
+section.frase {
+  align-items: center;
+  text-align: center;
+}
+
+section.frase h1 {
+  font-size: 68px;
+}
+
+section.frase ul {
+  text-align: left;
+  font-size: 40px;
+}
+
+/* trio de números lado a lado */
+.trio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  text-align: center;
+}
+
+.trio b {
+  display: block;
+  font-size: 120px;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--laranja);
+}
+
+.trio span {
+  display: block;
+  margin-top: 12px;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+/* grade de fotos */
+.grade {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.grade img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* nome: slide de homenagem */
+section.nome {
+  align-items: flex-start;
+}
+
+section.nome h1 {
+  font-size: 110px;
+  margin-bottom: 8px;
+}
+
+section.nome .anos {
+  font-family: "Atkinson Hyperlegible Mono", monospace;
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--laranja);
+  margin-bottom: 24px;
+}
+
+section.nome p {
+  font-size: 38px;
+  max-width: 90%;
+}
+
+section.nome .marca {
+  position: absolute;
+  right: 72px;
+  bottom: 56px;
+  width: 120px;
+}
+
+/* fim: convite para amanhã */
+section.fim {
+  align-items: center;
+  text-align: center;
+}
+
+section.fim h1::after {
+  margin: 28px auto 0;
+}
+
+section.fim .lema {
+  font-size: 64px;
+  font-weight: 800;
+  margin-top: 24px;
+}
+
+/* lista de agradecimento */
+li .anos {
+  font-family: "Atkinson Hyperlegible Mono", monospace;
+  font-size: 24px;
+  color: var(--laranja);
+  margin: 0 12px;
+}
+
+/* capa: título da LT */
+section.capa h1 {
+  font-size: 72px;
+  max-width: 85%;
+}
+
+section.capa p {
+  font-size: 36px;
+}
+
+.logo-capa {
+  position: absolute;
+  right: 72px;
+  top: 56px;
+  width: 110px;
+}
+
+/* dupla: duas imagens lado a lado */
+.dupla {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.dupla img {
+  width: 100%;
+  height: 560px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.dupla img:first-child {
+  object-fit: contain;
+}
+
+.logo-canto {
+  position: absolute;
+  right: 48px;
+  top: 40px;
+  width: 64px;
+}
+
+/* obrigado: fileira de fotos redondas, nome embaixo, um por clique */
+section.obrigado h1 {
+  text-align: center;
+}
+
+section.obrigado h1::after {
+  margin: 28px auto 0;
+}
+
+section.obrigado ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
+  margin-top: 24px;
+}
+
+section.obrigado li {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+section.obrigado li::before {
+  display: none;
+}
+
+section.obrigado li img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid var(--laranja);
+  margin-bottom: 16px;
+}
+
+section.obrigado li span {
+  margin-top: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+/* online: grade no estilo da aba Live do YouTube */
+section.online {
+  justify-content: flex-start;
+  padding-top: 48px;
+}
+
+section.online h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+section.online h1::after {
+  display: none;
+}
+
+.yt {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px 24px;
+}
+
+.yt div {
+  display: flex;
+  flex-direction: column;
+}
+
+.yt img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.yt b {
+  margin-top: 8px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.yt span {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--muted);
+}

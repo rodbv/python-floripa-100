@@ -17,38 +17,7 @@ O futuro de eventos de comunidade · 100ª Python Floripa
 <p class="muted">Rodrigo Vieira</p>
 
 <!--
-Slide de espera, enquanto a pessoa apresentadora chama a LT.
--->
-
----
-
-<!-- _class: foto -->
-
-![bg](img/2015-axado.jpg)
-
-<div class="legenda">
-<div class="label">2015</div>
-<p>Uma sala, um sofá, umas dez pessoas</p>
-</div>
-
-<!--
-Essa é a Python Floripa em 2015.
-Uma sala, um sofá, uma palestra e umas dez pessoas.
--->
-
----
-
-<!-- _class: foto -->
-
-![bg](img/2026-pessoas-tecnologias.jpg)
-
-<div class="legenda">
-<div class="label">Hoje</div>
-<p>A foto oficial de um sábado qualquer</p>
-</div>
-
-<!--
-Essa é a Python Floripa hoje.
+Slide de espera, enquanto a pessoa apresentadora chama a abertura.
 -->
 
 ---
@@ -62,43 +31,25 @@ Essa é a Python Floripa hoje.
 Hoje, na Python Brasil
 
 <!--
-E hoje, aqui na Python Brasil, a gente chega à edição número 100.
-
-100 edições em 11 anos, quase sempre num sábado à tarde, começando às 13h29.
-Mais de 30 lugares diferentes: empresas, universidades, coworkings, até um food truck.
-Cada edição precisou de alguém para palestrar, alguém para trazer o café
-e alguém para abrir a porta.
-
-Toda Python Floripa começa com o Juramento de Turing.
-A primeira promessa é: "colocar pessoas acima de tecnologias".
-Essa lightning talk é sobre essas pessoas.
+Hoje a Python Floripa chega à edição número 100.
+E essa história começa com um café.
 -->
 
 ---
 
-<!-- _class: frase -->
+<!-- _class: foto -->
 
-# De graça.<br>Por voluntários.<br>**Para quem chegar.**
+![bg](img/2015-axado.jpg)
 
-<!--
-RASCUNHO, texto a fechar.
-- Toda edição é gratuita e quem organiza é voluntário.
-- Ninguém precisa de convite, cargo ou experiência para entrar.
--->
-
----
-
-<div class="dupla">
-<img src="img/coffee-open-source.png" alt="Arte: Coffee Break open source. Traga seu quitute favorito e compartilhe!" />
-<img src="img/2025-88-coffee-mesa.jpg" alt="Mesa do coffee break comunitário na 88ª Python Floripa" />
+<div class="legenda">
+<div class="label">2015</div>
+<p>Umas dez pessoas num sofá. Alguém trouxe o café.</p>
 </div>
 
 <!--
-RASCUNHO, texto a fechar.
-- Quando não tem patrocínio para o café, tem coffee break open source: cada pessoa traz alguma coisa.
-- Do texto de divulgação: "muitos commits pequenos resultam em algo grandioso".
-- A organização passa o café; levar comida é voluntário, e quem não puder levar vem mesmo assim.
-- Foto: a mesa da 88ª, julho de 2025.
+Em 2015, umas dez pessoas se juntaram num sofá para ver uma palestra de Python.
+Alguém trouxe o café.
+O JJ já tinha criado o GitHub da comunidade. O Elias deu a primeira palestra. O Felipe fez o site.
 -->
 
 ---
@@ -108,14 +59,15 @@ RASCUNHO, texto a fechar.
 ![bg](img/2016-ecentry.jpg)
 
 <div class="legenda">
-<div class="label">O começo</div>
-<p>Um punhado de gente marcando o próximo encontro</p>
+<div class="label">Todo mês</div>
+<p>Alguém achava uma sala. Alguém palestrava pela primeira vez. Alguém passava o café.</p>
 </div>
 
 <!--
-Tudo começou com um punhado de gente: o JJ, o Elias, o Felipe.
-Uma sala, uma palestra e a vontade de marcar o próximo encontro.
-Com poucos meses de vida, essa turma já sonhava em trazer a Python Brasil para Floripa.
+E aí virou rotina.
+Todo mês, alguém achava uma sala.
+Alguém palestrava pela primeira vez.
+Alguém passava o café.
 -->
 
 ---
@@ -125,15 +77,25 @@ Com poucos meses de vida, essa turma já sonhava em trazer a Python Brasil para 
 ![bg](img/2018-ufsc.jpg)
 
 <div class="legenda">
-<div class="label">Crescendo</div>
-<p>Auditórios cheios, a comunidade saindo da ilha</p>
+<div class="label">Mais cadeiras</div>
+<p>Mais café</p>
 </div>
 
 <!--
-Depois o Mário Sérgio e a Talita pegaram o bastão.
-A comunidade cresceu, encheu auditórios e saiu da ilha.
-Mais tarde o Calixto se juntou à Talita na organização.
-E aí veio 2020.
+Com o Mário Sérgio e a Talita, a roda precisou de mais cadeiras. E de mais café.
+A comunidade encheu auditórios e saiu da ilha.
+Depois o Calixto se juntou à Talita.
+-->
+
+---
+
+<!-- _class: frase -->
+
+# Em março de 2020,<br>**a sala fechou.**
+
+<!--
+Até que, em março de 2020, a sala fechou.
+O mais fácil seria parar.
 -->
 
 ---
@@ -142,7 +104,7 @@ E aí veio 2020.
 
 <div class="label">2020 e 2021</div>
 
-# A Python Floripa foi para a **casa de cada um**
+# Cada um passou o próprio café **em casa**
 
 <div class="yt">
 <div><img src="img/online-thumb.jpg" alt="" /><b>54º Python Floripa de Natal on-line</b><span>▷ 152 visualizações</span></div>
@@ -154,28 +116,42 @@ E aí veio 2020.
 </div>
 
 <!--
-RASCUNHO, texto a fechar.
-- A pandemia cancelou o encontro de março. O mais fácil seria parar.
-- Um mês depois a Python Floripa estava no YouTube, e ficou lá um ano e meio, todo mês.
-- Comemorou 5 anos online. O Calixto abria a transmissão de casa, todo mês.
-- Teve mês com meia dúzia de pessoas assistindo. Tudo bem: o encontro aconteceu.
-- Quando deu para voltar, voltou com a transmissão ligada, para quem não podia estar na sala.
+Em vez de parar, cada um passou o próprio café em casa, e a live abriu no sábado.
+Todo mês, por um ano e meio. O Calixto abria a transmissão.
+Teve mês com meia dúzia de pessoas assistindo.
+A live abriu do mesmo jeito.
+A gente até comemorou 5 anos assim.
+-->
+
+---
+
+<!-- _class: foto -->
+
+![bg](img/2026-pessoas-tecnologias.jpg)
+
+<div class="legenda">
+<div class="label">Voltamos</div>
+<p>50 a 100 pessoas, todo mês</p>
+</div>
+
+<!--
+Quando deu, a gente voltou.
+Hoje, com o Jardel, são 50 a 100 pessoas por mês.
+A tela atrás diz o que a gente promete no começo de cada encontro: pessoas acima de tecnologias.
 -->
 
 ---
 
 <div class="grade">
-<img src="img/2024-81.jpg" alt="81ª Python Floripa" />
-<img src="img/2025-85.jpg" alt="85ª Python Floripa" />
-<img src="img/2025-hackathon-ifsc-robos.jpg" alt="Robôs Pac-Man e fantasma no hackathon de novembro de 2025" />
-<img src="img/2025-82.jpg" alt="82ª Python Floripa" />
+<img src="img/2024-81.jpg" alt="Foto oficial de uma Python Floripa" />
+<img src="img/2025-85.jpg" alt="Foto oficial de uma Python Floripa" />
+<img src="img/2025-hackathon-ifsc-robos.jpg" alt="Robôs Pac-Man e fantasma num hackathon" />
+<img src="img/2025-82.jpg" alt="Foto oficial de uma Python Floripa" />
 </div>
 
 <!--
-RASCUNHO, texto a fechar.
-- Sobrevivemos, e aqui estamos: encontro todo mês, com 50 a 100 pessoas na sala.
-- Hoje quem mantém esse ritmo é o Jardel.
-- Além dos encontros: hackathons, oficinas e robôs (o Pac-Man e o fantasma são do hackathon).
+E a roda não para de inventar coisa: hackathon, oficina, até robô.
+O Pac-Man e o fantasma aí embaixo são de um hackathon nosso.
 -->
 
 ---
@@ -190,9 +166,32 @@ RASCUNHO, texto a fechar.
 </div>
 
 <!--
-RASCUNHO, texto a fechar.
-- A PyLadies Floripa caminha junto desde o começo e fez 10 anos. Foto: encontro da PyLadies Floripa.
-- As duas comunidades fazem encontros juntas.
+E a gente nunca caminhou sozinho: a PyLadies Floripa está junto há 10 anos.
+-->
+
+---
+
+<!-- _class: frase -->
+
+# De graça.<br>Por voluntários.<br>**Para quem chegar.**
+
+<!--
+Tudo isso de graça.
+Feito por voluntários.
+Para quem chegar.
+-->
+
+---
+
+<div class="dupla">
+<img src="img/coffee-open-source.png" alt="Arte: Coffee Break open source. Traga seu quitute favorito e compartilhe!" />
+<img src="img/2025-88-coffee-mesa.jpg" alt="Mesa de um coffee break comunitário" />
+</div>
+
+<!--
+E quando não tem patrocínio para o café?
+Tem coffee break open source: cada pessoa traz um pouco.
+Muitos commits pequenos, e a mesa fica cheia.
 -->
 
 ---
@@ -206,15 +205,16 @@ RASCUNHO, texto a fechar.
 * organizou, serviu café, carregou cadeira ou achou um lugar
 
 <!--
-RASCUNHO, texto a fechar.
-- Pedir que levantem em camadas. Quase todo mundo vai estar de pé no fim.
+Fique de pé se você já foi a uma Python Floripa.
+Continue de pé se já deu uma palestra ou uma lightning talk.
+E se já organizou, serviu café, carregou cadeira ou achou um lugar.
 -->
 
 ---
 
 <!-- _class: obrigado -->
 
-# Obrigado
+# Quem passou o café
 
 * <img src="img/av-jj.jpg" alt="" /> **JJ** <span>criou a casa</span><em>2014 a 2017 · ~25 edições</em>
 * <img src="img/av-mario.jpg" alt="" /> **Mário Sérgio** <span>ajudou a crescer</span><em>2016 a 2019 · ~30 edições</em>
@@ -223,23 +223,22 @@ RASCUNHO, texto a fechar.
 * <img src="img/av-jardel.jpg" alt="" /> **Jardel Godinho** <span>mantém a porta aberta</span><em>2024 a hoje · ~20 edições</em>
 
 <!--
-RASCUNHO, texto a fechar.
-- Um nome por clique, com aplausos.
-- Na Talita: a comunidade que um dia quis trazer a Python Brasil hoje ajuda a organizá-la, e a 100ª acontece dentro dela.
+Por 100 edições, alguém passou o café. Algumas pessoas passaram por muitos anos.
+Um nome por clique, com aplausos.
+Na Talita: a comunidade que um dia quis trazer a Python Brasil hoje ajuda a organizá-la.
 -->
 
 ---
 
 <!-- _class: fim -->
 
-# O futuro de eventos **de comunidade**
+# Quem vai passar o café **da edição 200?**
 
-De graça, por voluntários, para quem chegar
+O futuro de eventos de comunidade
 
 <div class="lema"><span class="accent">Pessoas</span> &gt; <span class="accent">Tecnologias</span></div>
 
 <!--
-RASCUNHO, texto a fechar.
-- Repetir com a plateia a primeira promessa do juramento.
-- Passar a palavra para o painel.
+Então a pergunta para o painel é:
+quem vai passar o café da edição 200?
 -->

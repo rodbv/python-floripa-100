@@ -40,10 +40,10 @@ Uma sala, um sofá, uma palestra e umas dez pessoas.
 
 <!-- _class: foto -->
 
-![bg](img/2025-83-grupo-centro.jpg)
+![bg](img/2026-pessoas-tecnologias.jpg)
 
 <div class="legenda">
-<div class="label">2025</div>
+<div class="label">Hoje</div>
 <p>A foto oficial de um sábado qualquer</p>
 </div>
 
@@ -182,7 +182,7 @@ RASCUNHO, texto a fechar.
 
 <!-- _class: foto -->
 
-![bg](img/2016-pyladies.jpg)
+![bg](img/pyladies-floripa.jpg)
 
 <div class="legenda">
 <div class="label">PyLadies Floripa</div>
@@ -191,7 +191,7 @@ RASCUNHO, texto a fechar.
 
 <!--
 RASCUNHO, texto a fechar.
-- A PyLadies Floripa caminha junto desde o começo e fez 10 anos.
+- A PyLadies Floripa caminha junto desde o começo e fez 10 anos. Foto: encontro da PyLadies Floripa.
 - As duas comunidades fazem encontros juntas.
 -->
 
@@ -216,11 +216,11 @@ RASCUNHO, texto a fechar.
 
 # Obrigado
 
-* <img src="img/av-jj.jpg" alt="" /> **JJ** <span>criou a casa</span>
-* <img src="img/av-mario.jpg" alt="" /> **Mário Sérgio** <span>ajudou a crescer</span>
-* <img src="img/av-talita.jpg" alt="" /> **Talita Rossari** <span>coordena esta Python Brasil</span>
-* <img src="img/av-calixto.jpg" alt="" /> **Rafael Calixto** <span>segurou a pandemia</span>
-* <img src="img/av-jardel.jpg" alt="" /> **Jardel Godinho** <span>mantém a porta aberta</span>
+* <img src="img/av-jj.jpg" alt="" /> **JJ** <span>criou a casa</span><em>2014 a 2017 · ~25 edições</em>
+* <img src="img/av-mario.jpg" alt="" /> **Mário Sérgio** <span>ajudou a crescer</span><em>2016 a 2019 · ~30 edições</em>
+* <img src="img/av-talita.jpg" alt="" /> **Talita Rossari** <span>coordena esta Python Brasil</span><em>2017 a hoje · ~80 edições</em>
+* <img src="img/av-calixto.jpg" alt="" /> **Rafael Calixto** <span>segurou a pandemia</span><em>2018 a 2024 · ~45 edições</em>
+* <img src="img/av-jardel.jpg" alt="" /> **Jardel Godinho** <span>mantém a porta aberta</span><em>2024 a hoje · ~20 edições</em>
 
 <!--
 RASCUNHO, texto a fechar.

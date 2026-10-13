@@ -414,3 +414,12 @@ section.online h1::after {
   font-weight: 500;
   color: var(--muted);
 }
+
+section.obrigado li em {
+  margin-top: 6px;
+  font-family: "Atkinson Hyperlegible Mono", monospace;
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--laranja);
+}
